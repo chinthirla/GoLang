@@ -1,0 +1,6 @@
+package main
+import "fmt"
+// this is comment
+func main(){
+	fmt.println("Hello World")
+}
