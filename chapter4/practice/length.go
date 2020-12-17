@@ -1,0 +1,10 @@
+package main
+import "fmt"
+func main() {
+	x := []int{1,2,3,4,5,6}
+	slice3 := make([]int, 3, 9)
+	copy(slice3, x)
+	fmt.Println(slice3, "\nlength of the array is:", len(slice3))
+}
+
+
