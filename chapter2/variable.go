@@ -16,4 +16,6 @@ func main(){
 	fmt.Println(d == c)
 	v := "vijaybhavu"
 	fmt.Println(v)
+	name := "Doggy"
+	fmt.Println("My dog name is :",name)
 }
