@@ -1,0 +1,24 @@
+/*Write a function which takes an integer and
+halves it and returns true if it was even or false
+if it was odd. For example half(1) should return
+(0, false) and half(2) should return (1,
+true).*/
+package main
+import "fmt"
+func half1(x int) int {
+	xs := int( x / 2 )
+	if x % 2 ==0 {
+		return xs, 1
+	}else {
+		return xs, 0
+	}
+}
+
+func main() {
+	var num int
+	fmt.Printf("Enter number :")
+	fmt.Scanf("%d", &num)
+	var str1 int
+	fmt.Println(half1(num, bool(str1)))
+}
+
